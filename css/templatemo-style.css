@@ -21,11 +21,11 @@ a:focus {
 /* 1. Intro 
 --------------------*/
 .tm-section-intro {
-	background-image: url(../img/ocean-bg.jpg);
+	background-image: url(../img/banyoles.jpg);
 	background-attachment: fixed;
-	background-position: center top;
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100% 800px;
 	color: white;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -38,6 +38,23 @@ a:focus {
 	        justify-content: center;
 	text-align: center;
 	height: 800px;
+}
+
+.tm-section-logo {
+    margin: 50px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+}
+.tm-img-logo {
+	max-height: 600px;
 }
 
 .tm-wrapper-center {
@@ -331,10 +348,6 @@ hr { width: 65%; }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	/* IE10+ CSS styles go here */
 	.tm-section-intro {	background-attachment: scroll; }
-}
-
-@media (max-width: 1900px) {
-	.tm-section-intro {	background-size: 1900px 800px; }
 }
 
 @media (max-height: 800px) {
