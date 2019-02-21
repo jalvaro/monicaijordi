@@ -40,6 +40,14 @@ a:focus {
 	height: 800px;
 }
 
+.cover-opacity {
+	position: absolute;
+    height: 100vh;
+    background: black;
+    width: 100%;
+    opacity: 0.2;
+}
+
 .tm-section-logo {
     margin: 50px;
 	display: -webkit-flex;
