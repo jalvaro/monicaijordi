@@ -45,7 +45,7 @@ a:focus {
     height: 100vh;
     background: black;
     width: 100%;
-    opacity: 0.2;
+    opacity: 0;
 }
 
 .tm-section-logo {
