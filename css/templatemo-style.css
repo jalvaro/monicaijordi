@@ -37,7 +37,6 @@ a:focus {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	text-align: center;
-	height: 800px;
 }
 
 .cover-opacity {
@@ -61,9 +60,10 @@ a:focus {
 	        justify-content: center;
 	text-align: center;
 	background-color: #81b4eb3d;
+	height: 100vh;
 }
 .tm-img-logo {
-	max-height: 600px;
+	max-height: 90vh;
 }
 
 .tm-wrapper-center {
