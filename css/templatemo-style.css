@@ -39,6 +39,11 @@ a:focus {
 	text-align: center;
 }
 
+.bkg-img-claustre {
+	background-image: url(../img/claustre.jpg);
+	background-position: 30% 50%;
+}
+
 .cover-opacity {
 	position: absolute;
     height: 100vh;
