@@ -207,13 +207,19 @@ a:focus {
 .tm-2-col-text-title {
 	color: #81b4eb;
     font-size: 1.9rem;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 5%;    
+}
+
+.tm-2-col-text-description em {
+	font-size: 1.4rem;
+	font-weight: 500;
+	font-style: inherit;
 }
 
 .tm-2-col-text-description {
 	color: #81b4eb;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.9;    
     margin-bottom: 6%;
@@ -367,7 +373,7 @@ hr { width: 65%; }
 	.tm-section-intro {	background-attachment: scroll; }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 4800px) {
 	.tm-section-intro {
 		height: 100vh;
 		min-height: 480px;
