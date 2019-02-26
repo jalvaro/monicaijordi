@@ -21,7 +21,7 @@ a:focus {
 /* 1. Intro 
 --------------------*/
 .tm-section-intro {
-	background-image: url(../img/banyoles.jpg);
+	background-image: url(../../images/banyoles.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -40,7 +40,7 @@ a:focus {
 }
 
 .bkg-img-claustre {
-	background-image: url(../img/claustre.jpg);
+	background-image: url(../../images/claustre.jpg);
 	background-position: 30% 50%;
 }
 
