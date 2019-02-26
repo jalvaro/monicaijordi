@@ -27,6 +27,25 @@ p {
 	line-height: 24px;
 }
 
+.logo-parallax {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+	background-color: #81b4eb3d;
+}
+
+.logo-parallax-image img {
+    padding: 70px;
+	max-height: 100vh;
+}
+
 .parallax-content {
   width: 100%;
   min-height: 100vh;
@@ -211,7 +230,7 @@ bootstrap.min.css:5
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/banner_bg.jpg);
+  	background-image: url(../images/claustre.jpg);
   	vertical-align: middle;
 }
 

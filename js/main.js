@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
 
 	'use strict';
 
-      var owl = $("#owl-testimonials");
+        var owl = $("#owl-testimonials");
 
         owl.owlCarousel({
           
@@ -14,16 +14,20 @@ jQuery(document).ready(function($) {
           itemsDesktopSmall : [900,1], // betweem 900px and 601px
           itemsTablet: [600,1], //2 items between 600 and 0
           itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
-          
-      });
+            
+        });
 
+        var calculateTopPosition = elementName =>  $(this).scrollTop() - $(elementName).position().top;
 
-        var top_header = $('.parallax-content');
-        top_header.css({'background-position':'center center'}); // better use CSS
+        var setBackGroundPosition = elementName => {
+          var st = calculateTopPosition(elementName);
+          $(elementName).css({'background-position':'30% calc(50% + '+(st*.5)+'px)'});
+        }
+
+        setBackGroundPosition('.test');
 
         $(window).scroll(function () {
-        var st = $(this).scrollTop();
-        top_header.css({'background-position':'center calc(50% + '+(st*.5)+'px)'});
+          setBackGroundPosition('.test');
         });
 
 
