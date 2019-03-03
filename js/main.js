@@ -20,15 +20,46 @@ jQuery(document).ready(function($) {
         var calculateTopPosition = elementName =>  $(this).scrollTop() - $(elementName).position().top;
 
         var setBackGroundPosition = elementName => {
+          var nameSplits = elementName.split('-');
+          var horizontalPos = nameSplits[nameSplits.length - 1];
           var st = calculateTopPosition(elementName);
-          $(elementName).css({'background-position':'30% calc(50% + '+(st*.5)+'px)'});
+          $(elementName).css({'background-position': horizontalPos + '% calc(50% + '+(st*.5)+'px)'});
         }
 
-        setBackGroundPosition('.test');
+        var setBackGroundAndScrollPosition = elementName => {
+          setBackGroundPosition(elementName);
 
-        $(window).scroll(function () {
-          setBackGroundPosition('.test');
-        });
+          $(window).scroll(function () {
+            setBackGroundPosition(elementName);
+          });
+        }
+
+        setBackGroundAndScrollPosition('.move-background-scroll-30');
+        setBackGroundAndScrollPosition('.move-background-scroll-50');
+
+        var setEmail = (elementName, username) => {
+          var string1 = username;
+          var string2 = "@";
+          var string3 = "gmail.com";
+          var string4 = string1 + string2 + string3;
+          $(elementName).html("<a href='" + "mail" + "to:" + string1 +
+            string2 + string3 + "'>" + string4 + "</a>");
+        }
+
+        var setPhone = (elementName, firstHalf, secondHalf) => {
+          var string1 = '+34 ';
+          var string2 = firstHalf;
+          var string3 = secondHalf;
+          var string4 = string1 + string2 + string3;
+          $(elementName).html("<a href='" + "te" + "l:" + string1 +
+            string2 + string3 + "'>" + string4 + "</a>");
+        }
+
+        setEmail('#email-monica', 'mquintanacodina');
+        setEmail('#email-jordi', 'jordi.alvaro.arques');
+
+        setPhone('#phone-monica', '64687', '0007');
+        setPhone('#phone-jordi', '68585', '6354');
 
 
         $('.counter').each(function() {
@@ -56,20 +87,19 @@ jQuery(document).ready(function($) {
         });
 
 
-        $('.tabgroup > div').hide();
+        /*$('.tabgroup > div').hide();
         $('.tabgroup > div:first-of-type').show();
         $('.tabs a').click(function(e){
           e.preventDefault();
-            var $this = $(this),
+          var $this = $(this),
             tabgroup = '#'+$this.parents('.tabs').data('tabgroup'),
             others = $this.closest('li').siblings().children('a'),
             target = $this.attr('href');
-        others.removeClass('active');
-        $this.addClass('active');
-        $(tabgroup).children('div').hide();
-        $(target).show();
-      
-        })
+          others.removeClass('active');
+          $this.addClass('active');
+          $(tabgroup).children('div').hide();
+          $(target).show();
+        })*/
 
 
 

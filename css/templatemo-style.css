@@ -27,6 +27,48 @@ p {
 	line-height: 24px;
 }
 
+.map-section {
+	margin-bottom: -5px;
+}
+
+.img-desc-group {
+	display: flex;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.reverse-img-desc {
+	flex-direction: row-reverse;
+}
+
+.img-desc-group div {
+	margin: 0px 10px 0px 10px;
+}
+
+.image-content {
+	padding:0;
+}
+
+.text-content em {
+	font-size: 1.4rem;
+	font-weight: 500;
+	font-style: inherit;
+}
+
+@media (max-width: 480px) {
+	.img-desc-group {
+		flex-direction: column;
+	}
+
+	.reverse-img-desc {
+		flex-direction: column;
+	}
+
+	.img-desc-group-item {
+		margin: 0px;
+	}
+}
+
 .logo-parallax {
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -230,8 +272,15 @@ bootstrap.min.css:5
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../images/claustre.jpg);
   	vertical-align: middle;
+}
+
+.claustre {
+	background-image: url(../images/claustre.jpg);
+}
+
+.banyoles {
+	background-image: url(../images/banyoles.jpg);
 }
 
 .baner-content .text-content {
