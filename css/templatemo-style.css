@@ -277,11 +277,11 @@ bootstrap.min.css:5
 
 @media (max-width: 480px) {
 	.claustre {
-		background-image: url(../images/claustre_800.jpg);
+		background-image: url(../images/claustre.jpg);
 	}
 
 	.banyoles {
-		background-image: url(../images/banyoles_800.jpg);
+		background-image: url(../images/banyoles_1600.jpg);
 	}
 }
 
