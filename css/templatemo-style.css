@@ -275,12 +275,24 @@ bootstrap.min.css:5
   	vertical-align: middle;
 }
 
-.claustre {
-	background-image: url(../images/claustre.jpg);
+@media (max-width: 480px) {
+	.claustre {
+		background-image: url(../images/claustre_800.jpg);
+	}
+
+	.banyoles {
+		background-image: url(../images/banyoles_800.jpg);
+	}
 }
 
-.banyoles {
-	background-image: url(../images/banyoles_1600.jpg);
+@media (min-width: 480px) {
+	.claustre {
+		background-image: url(../images/claustre.jpg);
+	}
+
+	.banyoles {
+		background-image: url(../images/banyoles_1600.jpg);
+	}
 }
 
 .baner-content .text-content {
