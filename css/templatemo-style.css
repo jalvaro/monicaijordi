@@ -447,7 +447,12 @@ bootstrap.min.css:5
 
 
 #testimonial {
-	background-color: #f7c552;
+	background: #81b4eb;
+	background: -webkit-linear-gradient(bottom, #81b4eb3d, #81b4eb);
+	background: -o-linear-gradient(bottom, #81b4eb3d, #81b4eb);
+	background: -moz-linear-gradient(bottom, #81b4eb3d, #81b4eb);
+	background: linear-gradient(bottom, #81b4eb3d, #81b4eb);
+	opacity: 0.9;
 	text-align: center;
 	padding: 100px 0px;
 }
