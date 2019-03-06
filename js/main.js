@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
           var nameSplits = elementName.split('-');
           var horizontalPos = nameSplits[nameSplits.length - 1];
           var st = calculateTopPosition(elementName);
-          $(elementName).css({'background-position': horizontalPos + '% calc(50% + '+(st*.5)+'px)'});
+          $(elementName).css({'background-position': horizontalPos + '% calc(25% + '+(st*.5)+'px)'});
         }
 
         var setBackGroundAndScrollPosition = elementName => {

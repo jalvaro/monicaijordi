@@ -27,6 +27,15 @@ p {
 	line-height: 24px;
 }
 
+.cover-opacity {
+    position: absolute;
+    height: 100%;
+    background: black;
+    width: 100%;
+    opacity: 0.4;
+    margin-top: -150px;
+}
+
 .map-section {
 	margin-bottom: -5px;
 }
@@ -81,6 +90,7 @@ p {
 	        justify-content: center;
 	text-align: center;
 	background-color: #81b4eb3d;
+	background-image: url("../images/textura_2000x1000.png");
 }
 
 .logo-parallax-image img {
@@ -185,7 +195,7 @@ p {
 }
 
 .header.active {
-    background-color: rgba(250, 250, 250, 0.98);
+    background-image: url(../images/textura_2000x1000.png);
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -330,10 +340,12 @@ bootstrap.min.css:5
 
 #about {
 	padding: 150px 0px;
-	background-image: url(../img/about-bg.jpg);
+	background-image: url(../images/castelljalpi.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 100%;
+	background-position-x: 70%;
 }
 
 #about .service-item {
@@ -617,7 +629,7 @@ bootstrap.min.css:5
 }
 
 #contact-us {
-	background-color: #596065;
+	background-image: url('../images/textura_2000x1000.png');
 	text-align: center;
 	padding: 80px 0px;
 }
