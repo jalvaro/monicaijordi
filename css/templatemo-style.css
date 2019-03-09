@@ -213,7 +213,7 @@ p {
 }
 
 .header.active {
-    background-image: url(../images/textura_2000x1000.png);
+    background-image: url(../images/textura_blanca_600.png);
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
