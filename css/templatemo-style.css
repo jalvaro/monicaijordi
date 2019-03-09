@@ -17,19 +17,23 @@ body {
 }
 
 body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background: url(../images/claustre.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	content: "";
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+		url(../images/castelljalpi.jpg),
+		no-repeat;
+	background-position-x: 70%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 ul {
@@ -96,7 +100,7 @@ p {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	text-align: center;
-	/*background-image: url("../images/textura_2000x1000.png");*/
+	background-image: url("../images/textura_2000x1000.png");
 }
 
 .logo-parallax-image img {
@@ -345,13 +349,13 @@ bootstrap.min.css:5
 
 #about {
 	padding: 150px 0px;
-	background-image: 
+	/*background-image: 
 		linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
 	    url(../images/castelljalpi.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
-	background-position-x: 70%;
+	background-attachment: fixed;*/
+	
 }
 
 #about .service-item {
