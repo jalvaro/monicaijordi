@@ -469,12 +469,13 @@ bootstrap.min.css:5
 
 
 #testimonial {
-	background: #81b4eb;
+	/*background: #81b4eb;
 	background: -webkit-linear-gradient(bottom, #81b4eb3d, #81b4eb);
 	background: -o-linear-gradient(bottom, #81b4eb3d, #81b4eb);
 	background: -moz-linear-gradient(bottom, #81b4eb3d, #81b4eb);
 	background: linear-gradient(bottom, #81b4eb3d, #81b4eb);
-	opacity: 0.9;
+	opacity: 0.9;*/
+	background-image: url('../images/textura_2000x1000.png');
 	text-align: center;
 	padding: 100px 0px;
 }
