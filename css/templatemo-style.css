@@ -53,16 +53,24 @@ p {
 
 .img-desc-group {
 	display: flex;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
 .reverse-img-desc {
 	flex-direction: row-reverse;
 }
 
-.img-desc-group div {
-	margin: 0px 10px 0px 10px;
+.img-desc-individual {
+	margin: 10px 10px 0px 10px;
+	border: 2px white solid;
+    padding: 10px;
+}
+
+
+.clear-margin-height {
+	margin: 0px;
+    height: 100%;
 }
 
 .image-content {
@@ -528,7 +536,7 @@ bootstrap.min.css:5
 
 
 #blog {
-	background-image: url(../img/blog-bg.jpg);
+	background-image: url(../images/textura_2000x1000.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -607,10 +615,10 @@ bootstrap.min.css:5
 	margin-bottom: 15px;
 }
 .tabgroup .text-content	 {
-  background-color: #fff;
-  color: #fff;
-  padding: 25px;
-  text-align: left;
+	background-image: url(../images/textura_blanca_600.png);
+	color: #fff;
+	padding: 25px;
+	text-align: left;
 }
 .tabgroup .text-content h4 {
 	font-size: 17px;
