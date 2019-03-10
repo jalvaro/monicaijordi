@@ -47,6 +47,24 @@ p {
 	line-height: 24px;
 }
 
+.the-wedding {
+	padding: 15px;
+}
+
+.the-wedding div {
+	text-align: justify;
+	padding-top: 10px;
+}
+
+.the-wedding p {
+	font-size: 1.8rem;
+}
+
+.the-wedding em {
+	font-size: 1.9rem!important;
+	color: black;
+}
+
 .map-section {
 	margin-bottom: -5px;
 }
@@ -61,10 +79,16 @@ p {
 	flex-direction: row-reverse;
 }
 
+.img-desc-border {
+	height: 100%;
+    border: #7fb8e3 4px solid;
+}
+
 .img-desc-individual {
 	margin: 10px 10px 0px 10px;
-	border: 2px white solid;
-    padding: 10px;
+	/*border: 2px white solid;*/
+    padding: 7px;
+    background-image: url(../images/textura_blanca_600.png);
 }
 
 
@@ -213,7 +237,7 @@ p {
 }
 
 .header.active {
-    background-image: url(../images/textura_blanca_600.png);
+    background-image: url(../images/textura_blanca_1812x100.png);
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -222,13 +246,13 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 25px;
 	text-transform: uppercase;
-	color: #fff!important;
+	color: #000!important;
 	transition: all 0.5s;
 	 
 }
 .navbar-brand em {
 	font-style: normal;
-	color: #f7c552;
+	color: #7fb8e3;
 	font-size: 32px;
 }
 .header.active .navbar-brand {
@@ -250,11 +274,11 @@ p {
 }
 .navbar-inverse .navbar-toggle {
 	margin-top: 22px;
-    border-color: #f7c552;
-    background-color: #f7c552;
+    border-color: #7fb8e3;
+    background-color: #7fb8e3;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: #f7c552;
+	background-color: #7fb8e3;
 }
 bootstrap.min.css:5
 .navbar-toggle {
@@ -475,6 +499,27 @@ bootstrap.min.css:5
 	padding-right: 70px;
 }
 
+.bottom-left-flowers {
+	background-image: url('../images/bottom-left-flowers.png');
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: 3% 100%;
+}
+
+.top-right-flowers {
+	background-image: url('../images/top-right-flowers.png');
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 100% 20%;
+}
+
+.textura_blanca {
+	background-image: url('../images/textura_blanca_1812.png');
+}
+
+.textura_blava {
+	background-image: url('../images/textura_2000x1000.png');
+}
 
 #testimonial {
 	/*background: #81b4eb;
@@ -483,7 +528,6 @@ bootstrap.min.css:5
 	background: -moz-linear-gradient(bottom, #81b4eb3d, #81b4eb);
 	background: linear-gradient(bottom, #81b4eb3d, #81b4eb);
 	opacity: 0.9;*/
-	background-image: url('../images/textura_2000x1000.png');
 	text-align: center;
 	padding: 100px 0px;
 }
@@ -899,6 +943,20 @@ footer .connect-us ul li a:hover {
 
 @media (max-width: 991px){
 
+	.top-right-flowers {
+		background-image: url(../images/top-right-flowers.png);
+	    background-repeat: no-repeat;
+	    background-size: 80%;
+	    background-position: 90% 7%;
+	}
+
+	.bottom-left-flowers {
+	    background-image: url(../images/bottom-left-flowers.png);
+	    background-repeat: no-repeat;
+	    background-size: 50%;
+	    background-position: 8% 96%;
+	}
+
 	.baner-content .text-content p {
 		padding: 0px 15%;
 	}
@@ -1000,6 +1058,22 @@ footer .connect-us ul li a:hover {
 }
 
 @media (max-width: 768px){
+	.bottom-left-flowers {
+	    background-image: url(../images/bottom-left-flowers.png);
+	    background-repeat: no-repeat;
+	    background-size: 40%;
+	    background-position: 0% 90%;
+	    padding: 100px 40px!important;
+	}
+
+	.top-right-flowers {
+	    background-image: url(../images/top-right-flowers.png);
+	    background-repeat: no-repeat;
+	    background-size: 70%;
+	    background-position: 100% 12%;
+	    margin: 0px!important;
+	}
+
 	.baner-content .text-content p {
 		padding: 0px 10%;
 	}
