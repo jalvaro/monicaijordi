@@ -47,12 +47,29 @@ p {
 	line-height: 24px;
 }
 
+.countdown {
+    padding-top: 0px!important;
+	padding-bottom: 0px!important;
+}
+
+.countdown-layer {
+	margin: 0px 135px!important;
+}
+
+.bar-flowers {
+	padding: 30px 80px 0px 80px;
+}
+
+.bar-flowers {
+	padding: 30px 80px 0px 80px;
+}
+
 .contact-info a {
 	color: #337ab7;
 }
 
 .thank-you {
-	padding: 20px 0px;
+	padding: 40px 0px;
 }
 
 .thank-you p {
@@ -68,7 +85,11 @@ p {
 }
 
 .the-wedding {
-	padding: 15px;
+	padding: 25px 15px 40px 15px;
+}
+
+.the-wedding h2 {
+	padding-bottom: 10px;
 }
 
 .the-wedding div {
@@ -77,11 +98,11 @@ p {
 }
 
 .the-wedding p {
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 }
 
 .the-wedding em {
-	font-size: 1.9rem!important;
+	font-size: 2.0rem!important;
 	color: black;
 }
 
@@ -432,7 +453,11 @@ bootstrap.min.css:5
 	line-height: 104px;
 	border: 3px solid #fff;
 	border-radius: 50%;
-	background-color: #f7c552;
+	background-color: #7fb8e3;
+}
+
+#about .service-item .icon i {
+	color: white;
 }
 
 #about .service-item h4 {
@@ -1106,6 +1131,18 @@ footer .connect-us ul li a:hover {
 }
 
 @media (max-width: 768px){
+	.countdown-layer {
+		margin: 0px 0px!important;
+	}
+
+	.countdown-and-bar {
+		padding: 40px 15px 40px 15px!important;
+	}
+
+	.bar-flowers {
+		padding: 10px 0px 0px 0px;
+	}
+
 	.container-contact-info {
 		padding: 0px!important;
 	}
