@@ -54,8 +54,9 @@ http://www.templatemo.com/tm-506-tinker
                         <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
                         <li><a href="#" class="scroll-link" data-id="blog">Blog</a></li>
                         <li><a href="#" class="scroll-link" data-id="contact-us">Contact Us</a></li-->
-                        <li><a href="/es" class="navbar-font">ES</a></li>
-                        <li><a href="/en" class="navbar-font">EN</a></li>
+                        <li><a href="#ca" class="navbar-font">CA</a></li>
+                        <li><a href="#es" class="navbar-font">ES</a></li>
+                        <li><a href="#en" class="navbar-font">EN</a></li>
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->
@@ -88,8 +89,8 @@ http://www.templatemo.com/tm-506-tinker
 
     <section id="testimonial" class="textura_blanca">
         <div class="container">
-            <div class="row we-married">
-                Ens casem!
+            <div class="row we-married" translate>
+                {{we_are_getting_married}}
             </div>
         </div>
     </section>
@@ -103,35 +104,35 @@ http://www.templatemo.com/tm-506-tinker
                         <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1 countdown"> <!-- bor1 -->
                             <div class="flex-col-c-m wsize2 m-b-20">
                                 <span class="l1-txt2 p-b-4 months"></span>
-                                <span class="m2-txt2">Mesos</span>
+                                <span class="m2-txt2" translate>{{countdown.months}}</span>
                             </div>
 
                             <span class="l1-txt2 p-b-22">:</span>
 
                             <div class="flex-col-c-m wsize2 m-b-20">
                                 <span class="l1-txt2 p-b-4 days"></span>
-                                <span class="m2-txt2">Dies</span>
+                                <span class="m2-txt2" translate>{{countdown.days}}</span>
                             </div>
 
                             <span class="l1-txt2 p-b-22 respon2">:</span>
                             
                             <div class="flex-col-c-m wsize2 m-b-20">
                                 <span class="l1-txt2 p-b-4 hours"></span>
-                                <span class="m2-txt2">Hores</span>
+                                <span class="m2-txt2" translate>{{countdown.hours}}</span>
                             </div>
 
                             <span class="l1-txt2 p-b-22">:</span>
 
                             <div class="flex-col-c-m wsize2 m-b-20">
                                 <span class="l1-txt2 p-b-4 minutes"></span>
-                                <span class="m2-txt2">Minuts</span>
+                                <span class="m2-txt2" translate>{{countdown.minutes}}</span>
                             </div>
 
                             <span class="l1-txt2 p-b-22 respon2">:</span>
 
                             <div class="flex-col-c-m wsize2 m-b-20">
                                 <span class="l1-txt2 p-b-4 seconds"></span>
-                                <span class="m2-txt2">Segons</span>
+                                <span class="m2-txt2" translate>{{countdown.seconds}}</span>
                             </div>
                         </div>     
                     </div>
@@ -156,19 +157,19 @@ http://www.templatemo.com/tm-506-tinker
                     <div class="row">
                         <div class="col-md-12 text-individual">
                             <div class="text-content img-desc-border the-wedding">
-                                <h1>El casament</h1>
+                                <h1 translate>{{the_wedding.title}}</h1>
                                 <div>
-                                <p>
-                                    <em>· Quan?</em> Dissabte, 14 de setembre de 2019 a les 17:30h.
+                                <p translate>
+                                    {{the_wedding.when}}
                                 </p>
-                                <p>
-                                    <em>· On?</em> Tant la ceremònia com el banquet es celebraran al Món Sant Benet.
+                                <p translate>
+                                    {{the_wedding.where}}
                                 </p>
-                                <p>
-                                    <em>· On haurem d’aparcar?</em> A l'aparcament de l’hotel Món Sant Benet.
+                                <p translate>
+                                    {{the_wedding.where_to_park}}
                                 </p>
-                                <p>
-                                    <em>· Ens podem quedar a dormir?</em> I tant! Si ho desitgeu, us podeu allotjar a l’hotel Món Sant Benet.
+                                <p translate>
+                                    {{the_wedding.where_to_sleep}}
                                 </p>
                             </div>
                             </div>
@@ -196,12 +197,12 @@ http://www.templatemo.com/tm-506-tinker
                                 </div>
                                 <div class="col-md-6 img-desc-individual">
                                     <div class="text-content img-desc-border">
-                                        <h4>Què és el Món Sant Benet?</h4>
-                                        <!--span><a href="#">Web Design</a> / <a href="#">William</a> / <a href="#">20 August 2017</a></span-->
-                                        <p>
-                                            El Món Sant Benet, inaugurat l’any 2007, és un projecte cultural, turístic i de lleure d’una gran singularitat. És un conjunt únic: un monestir medieval a escassos metres d’un innovador centre internacional de recerca en cuina, tot en un entorn natural incomparable.
-                                        </p><p>
-                                            És, doncs, una fusió d’art medieval, gastronomia i natura.
+                                        <h4 translate>{{grid.mon_sant_benet.title}}</h4>
+                                        <p translate>
+                                            {{grid.mon_sant_benet.description_1}}
+                                        </p>
+                                        <p translate>
+                                            {{grid.mon_sant_benet.description_2}}
                                         </p>
                                     </div>
                                 </div>
@@ -212,13 +213,12 @@ http://www.templatemo.com/tm-506-tinker
                                 </div>
                                 <div class="col-md-6 img-desc-individual">
                                     <div class="text-content img-desc-border">
-                                        <h4>El monestir</h4>
-                                        <!--span><a href="#">Digital Marketing</a> / <a href="#">Honey</a> / <a href="#">26 September 2017</a></span-->
-                                        <p>
-                                            El monestir benedictí de Sant Benet de Bages, declarat bé cultural d’interès nacional, fou fundat l’any 960 i és un dels conjunts monàstics de l’Edat Mitjana més interessants i millor conservats de Catalunya.
+                                        <h4 translate>{{grid.the_monastery.title}}</h4>
+                                        <p translate>
+                                            {{grid.the_monastery.description_1}}
                                         </p>
-                                        <p>
-                                            Durant els segles XI, XII i XIII va assolir el moment de la seva màxima projecció i prosperitat, tot i els atacs que ocasionalment va rebre de les tropes musulmanes.
+                                        <p translate>
+                                            {{grid.the_monastery.description_2}}
                                         </p>
                                     </div>
                                 </div>
@@ -229,12 +229,11 @@ http://www.templatemo.com/tm-506-tinker
                                 </div>
                                 <div class="col-md-6 img-desc-individual">
                                     <div class="text-content img-desc-border">
-                                        <!--span><a href="#">Branding</a> / <a href="#">David</a> / <a href="#">14 September 2017</a></span-->
-                                        <p>
-                                            A partir del segle XV va entrar progressivament en decadència, aturant la seva activitat monàstica el 1835 de manera definitiva.
+                                        <p translate>
+                                            {{grid.the_monastery.description_3}}
                                         </p>
-                                        <p>
-                                            El recinte va estar abandonat fins que el 1907 és adquirit per la família de l’artista Ramon Casas, que va encarregar a l’arquitecte Josep Puig i Cadafalch la seva recuperació.
+                                        <p translate>
+                                            {{grid.the_monastery.description_4}}
                                         </p>
                                     </div>
                                 </div>
@@ -251,7 +250,7 @@ http://www.templatemo.com/tm-506-tinker
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="service-item" style="padding-bottom: 40px">
-                        <h3>Necessitaríem que ens avisessiu si...</h3>
+                        <h3 translate>{{things_to_know.title}}</h3>
                         <div class="line-dec"></div>
                     </div>
                 </div>
@@ -262,9 +261,9 @@ http://www.templatemo.com/tm-506-tinker
                         <div class="icon">
                             <i class="fa fa-4x fa-bus" style="vertical-align: middle"></i>
                         </div>
-                        <h4>Utilitzareu el bus</h4>
+                        <h4 translate>{{things_to_know.bus.title}}</h4>
                         <div class="line-dec"></div>
-                        <p>Posarem a la vostra disposició un bus BCN - MSB - BCN. Els horaris d'anada i tornada, així com el lloc de recollida, els especificarem més endavant.</p>
+                        <p translate>{{things_to_know.bus.description}}</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -272,9 +271,9 @@ http://www.templatemo.com/tm-506-tinker
                         <div class="icon">
                             <i class="fa fa-4x fa-hotel" style="vertical-align: middle"></i>
                         </div>
-                        <h4>Us quedareu a dormir</h4>
+                        <h4 translate>{{things_to_know.sleep.title}}</h4>
                         <div class="line-dec"></div>
-                        <p>Teniu l'opció d'allotjar-vos a l'Hotel Món Sant Benet per un preu reduït de 99€ que inclou l'habitació doble i l'esmorzar.</p>
+                        <p translate>{{things_to_know.sleep.description}}</p>
 
                     </div>
                 </div>
@@ -283,9 +282,9 @@ http://www.templatemo.com/tm-506-tinker
                         <div class="icon">
                             <i class="fa fa-4x fa-cutlery" style="vertical-align: middle"></i>
                         </div>
-                        <h4>Teniu restriccions alimentàries</h4>
+                        <h4 translate>{{things_to_know.food.title}}</h4>
                         <div class="line-dec"></div>
-                        <p>Recordeu d'indicar-nos si patiu alèrgies o intoleràncies alimentàries, així com la vostra condició de vegetarians o vegans.</p>
+                        <p translate>{{things_to_know.food.description}}</p>
                     </div>
                 </div>
             </div>
@@ -308,9 +307,9 @@ http://www.templatemo.com/tm-506-tinker
                 <div class="row ">
                     <div class="col-md-12 text-individual">
                         <div class="section-heading img-desc-border thank-you">
-                            <p style="font-size: 1.3em">Ens encantaria poder compartir aquest dia amb vosaltres!
+                            <p style="font-size: 1.3em" translate>{{contact.title_1}}
                             </p>
-                            <p style="font-size: 1.3em">Esperem la vostra confirmació</p>
+                            <p style="font-size: 1.3em" translate>{{contact.title_2}}</p>
                             <div class="line-dec"></div>
                             <div style="display: flex; flex-direction: column;">
                                 <div class="contact-info">
@@ -325,7 +324,7 @@ http://www.templatemo.com/tm-506-tinker
                                         </div-->
                                     </div>
                                     <div class="col-md-4">
-                                        <p><em>La vostra presència serà el millor regal, però si tot i així voleu contribuir a la nostra futura vida junts, us facilitem el número de compte:</em></p>
+                                        <p translate><em>{{contact.description}}</em></p>
                                         <p>IBAN: ES27 0182 4383 9102 0174 6190</p>
                                     </div>
                                     <div class="col-md-4 contact-person">
@@ -429,6 +428,10 @@ http://www.templatemo.com/tm-506-tinker
 
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/ca.js"></script>
+    <script src="js/es.js"></script>
+    <script src="js/en.js"></script>
+    <script src="js/translations.js"></script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
