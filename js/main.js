@@ -104,8 +104,9 @@ jQuery(document).ready(function($) {
 
 
         $(".pop-button").click(function () {
-            $(".pop").fadeIn(300);
-            
+            //$(".pop").fadeIn(300);
+            window.location.href = 'https://forms.gle/rwZWXMwCjfzteff69'
+            return false;
         });
 
         $(".pop > span").click(function () {

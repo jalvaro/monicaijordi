@@ -43,6 +43,11 @@ const es = {
 			description: "Recordad de indicarnos si tenéis alergias o intolerancias alimentarias, así como vuestra condición de vegetarianos o veganos."
 		},
 	},
+	suggest_a_song: {
+		title: 'Haz tu propuesta musical!',
+		description: "En el siguiente enlace podéis proponer hasta 3 canciones que os gustaría bailar en el día de la boda.",
+		button: 'Propón una canción!'
+	},
 	contact: {
 		title_1: '¡Nos encantaría poder compartir este día con vosotros!',
 		title_2: 'Esperamos vuestra confirmación',

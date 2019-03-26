@@ -43,6 +43,11 @@ const en = {
 			description: "Don’t forget to let us know if you have any food allergies or intolerances, as well as your vegetarian or vegan condition."
 		},
 	},
+	suggest_a_song: {
+		title: 'Suggest a song!',
+		description: "In the following link you will have the opporunity to suggest up to 3 songs that you would like to dance in the wedding party.",
+		button: 'Suggest a song!'
+	},
 	contact: {
 		title_1: 'We would love to share this day with you!',
 		title_2: 'RSVP',

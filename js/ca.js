@@ -43,6 +43,11 @@ const ca = {
 			description: "Recordeu d'indicar-nos si patiu alèrgies o intoleràncies alimentàries, així com la vostra condició de vegetarians o vegans."
 		},
 	},
+	suggest_a_song: {
+		title: 'Fes la teva proposta musical!',
+		description: "En el següent enllaç podeu proposar fins a 3 cançons que us agradaria ballar al dia del casament.",
+		button: 'Proposa una cançó!'
+	},
 	contact: {
 		title_1: 'Ens encantaria poder compartir aquest dia amb vosaltres!',
 		title_2: 'Esperem la vostra confirmació',
