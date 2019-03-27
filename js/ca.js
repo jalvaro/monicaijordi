@@ -29,7 +29,7 @@ const ca = {
 		}
 	},
 	things_to_know: {
-		title: 'Necessitaríem que ens avisessiu si...',
+		title: 'Necessitaríem que ens aviséssiu si...',
 		bus: {
 			title: 'Utilitzareu el bus',
 			description: "Posarem a la vostra disposició un bus BCN - MSB - BCN. Els horaris d'anada i tornada, així com el lloc de recollida, els especificarem més endavant."
