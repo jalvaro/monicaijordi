@@ -79,11 +79,11 @@ p {
 }
 
 .we-married-container {
-	background-image: url(../images/flores_ramo.png);
+	background-image: url(../images/flores_ramo2.png);
     padding: 100px 0px 180px 0px;
-    background-size: 60%;
+    background-size: 45%;
     background-repeat: no-repeat;
-    background-position-y: 250px;
+    background-position-y: bottom;
     background-position-x: center;
 }
 
@@ -1069,11 +1069,11 @@ footer .connect-us ul li a:hover {
 @media (max-width: 991px){
 
 	.we-married-container {
-		background-image: url(../images/flores_ramo.png);
+		background-image: url(../images/flores_ramo2.png);
 	    padding: 100px 0px 170px 0px;
 	    background-size: 80%;
 	    background-repeat: no-repeat;
-	    background-position-y: 250px;
+	    background-position-y: bottom;
 	    background-position-x: center;
 	}
 
@@ -1216,11 +1216,11 @@ footer .connect-us ul li a:hover {
 	}
 
 	.we-married-container {
-		background-image: url(../images/flores_ramo.png);
+		background-image: url(../images/flores_ramo2.png);
 	    padding: 100px 0px 140px 0px;
 	    background-size: 80%;
 	    background-repeat: no-repeat;
-	    background-position-y: 270px;
+	    background-position-y: bottom;
 	    background-position-x: center;
 	}
 
