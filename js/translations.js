@@ -5,19 +5,15 @@ jQuery(document).ready($ => {
 	const getValueFromAttribute = (item, attribute) => 
 		attribute.split('.').reduce((prev, curr) => prev && prev[curr], item);
 
-	const a2 = lang => {
-
+	const translateTags = lang => {
 		const translate = function(index) {
 			const rawKey = $(this).text();
-
 			const key = rawKey.match('{{(.*)}}')[1];
 
 			$(this).html(getValueFromAttribute(lang, key));
 		};
 
-		const elements = $('[translate]');
-
-		elements.map(translate);
+		$('[translate]').map(translate);
 	}
 	
 	const translations = {
@@ -28,10 +24,9 @@ jQuery(document).ready($ => {
 
 	const selectLanguage = () => {
 		const hash = $(location).attr('hash').substring(1);
-
 		const language = hash && hash !== '' ? hash : 'ca';
 
-		a2(translations[language]);
+		translateTags(translations[language]);
 	}
 
 	selectLanguage();
