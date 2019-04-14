@@ -11,7 +11,7 @@ const ca = {
 		title: 'El casament',
 		when: '<em>· Quan?</em> Dissabte, 14 de setembre de 2019 a les 17:30h.',
 		where: '<em>· On?</em> Tant la cerimònia com el banquet se celebraran al Món Sant Benet.',
-		where_to_park: "<em>· On haurem d’aparcar?</em> A l'aparcament de l’hotel Món Sant Benet.",
+		where_to_park: "<em>· On haurem d’aparcar?</em> El Món Sant Benet disposa de dos aparcaments gratuïts.",
 		where_to_sleep: '<em>· Ens podem quedar a dormir?</em> I tant! Si ho desitgeu, us podeu allotjar a l’hotel Món Sant Benet.'
 	},
 	grid: {

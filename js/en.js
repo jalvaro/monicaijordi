@@ -11,7 +11,7 @@ const en = {
 		title: 'The wedding',
 		when: '<em>· When?</em> Saturday, 14th September 2019 at 17:30h.',
 		where: '<em>· Where?</em> Both the wedding ceremony and the dinner will be celebrated at Món Sant Benet.',
-		where_to_park: "<em>· Where will we park?</em> At the parking of the Món Sant Benet hotel.",
+		where_to_park: "<em>· Where will we park?</em> Món Sant Benet has two car parks free of charge.",
 		where_to_sleep: '<em>· Can we stay over?</em> Of course! If you want, you can stay at the Món Sant Benet hotel.'
 	},
 	grid: {

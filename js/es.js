@@ -11,7 +11,7 @@ const es = {
 		title: 'La boda',
 		when: '<em>· ¿Cuándo?</em> Sábado, 14 de septiembre de 2019 a las 17:30h.',
 		where: '<em>· ¿Dónde?</em> Tanto la ceremonia como el banquete se celebraran en el Món Sant Benet.',
-		where_to_park: "<em>· ¿Dónde aparcaremos?</em> En el aparcamiento del hotel Món Sant Benet.",
+		where_to_park: "<em>· ¿Dónde aparcaremos?</em> El Món Sant Benet dispone de dos aparcamientos gratuitos.",
 		where_to_sleep: '<em>· ¿Nos podremos quedar a dormir?</em> Por supuesto! Si lo deseáis, os podéis alojar en el hotel Món Sant Benet.'
 	},
 	grid: {
